@@ -69,20 +69,20 @@ header {
   width: 43px;
   transition: 0.3s;
 }
-.site-links:hover{
+/* .site-links:hover{
   background: #FC0A7E;
 color: #000;
 border-radius: 3px;
 border: 1px solid #000;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
+} */
 
 /* site-main */
 
 .main {
   display: flex;
   align-items: center;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 .title {
@@ -428,9 +428,9 @@ hr {
 .btn1 {
   border-radius: 3px;
   border: 1px solid #000;
-  background:#FFFFFF;
+  background: #FC0A7E;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  color: black;
+  color: #FFFFFF;
   text-align: center;
   font-family: Gothic A1;
   font-size: 16px;
@@ -449,13 +449,7 @@ border: 1px solid #000;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
 }
 
-.btn1:active{
-  background: #FC0A7E;
-color: #FFFFFF;
-border-radius: 3px;
-border: 1px solid #000;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
+
 /* site-footer */
 footer {
   background: #1b1b1b;
